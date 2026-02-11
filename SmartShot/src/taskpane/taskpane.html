@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Screenshot to PDF</title>
+    <link rel="stylesheet" href="taskpane.css" />
 
     <!-- Office JavaScript API -->
     <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
@@ -18,20 +19,22 @@
     <div id="app-body">
         <div class="header">
             <h2>Screenshot to PDF</h2>
-            <div id="server-status" class="ms-font-m disconnected">
+            <div id="server-status" class="disconnected">
                 Checking connection...
             </div>
         </div>
 
-        <div class="button-group">
-            <button id="capture-btn">📸 Capture Screenshot</button>
-            <button id="refresh-btn">🔄</button>
+        <div class="controls-container">
+            <div class="button-group">
+                <button id="capture-btn">Capture Screenshot</button>
+                <button id="refresh-btn">Refresh</button>
+            </div>
+
+            <button id="export-pdf-btn" disabled>Export to PDF</button>
         </div>
 
-        <button id="export-pdf-btn" disabled>📄 Export All to PDF</button>
-
         <div id="screenshots-list">
-            <p class="ms-font-s">Loading screenshots...</p>
+            <p>Loading screenshots...</p>
         </div>
 
         <div id="status-message"></div>
