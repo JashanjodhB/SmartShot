@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Screenshot to PDF</title>
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+</head>
+
+<body>
+    <div id="sideload-msg">
+        <p>Please sideload your add-in to see app body.</p>
+    </div>
+
+    <div id="app-body">
+        <div class="header">
+            <h2>Screenshot to PDF</h2>
+            <div id="server-status" class="ms-font-m disconnected">
+                Checking connection...
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button id="capture-btn">📸 Capture Screenshot</button>
+            <button id="refresh-btn">🔄</button>
+        </div>
+
+        <button id="export-pdf-btn" disabled>📄 Export All to PDF</button>
+
+        <div id="screenshots-list">
+            <p class="ms-font-s">Loading screenshots...</p>
+        </div>
+
+        <div id="status-message"></div>
+    </div>
+
+    <script src="taskpane.js"></script>
+</body>
+</html>

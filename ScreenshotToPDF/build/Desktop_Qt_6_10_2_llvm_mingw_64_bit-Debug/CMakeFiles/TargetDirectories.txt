@@ -1,0 +1,5 @@
+C:/CS/Personal/Projects/ScreenShotAddIn/ScreenshotToPDF/build/Desktop_Qt_6_10_2_llvm_mingw_64_bit-Debug/CMakeFiles/ScreenshotToPDF.dir
+C:/CS/Personal/Projects/ScreenShotAddIn/ScreenshotToPDF/build/Desktop_Qt_6_10_2_llvm_mingw_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/CS/Personal/Projects/ScreenShotAddIn/ScreenshotToPDF/build/Desktop_Qt_6_10_2_llvm_mingw_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/CS/Personal/Projects/ScreenShotAddIn/ScreenshotToPDF/build/Desktop_Qt_6_10_2_llvm_mingw_64_bit-Debug/CMakeFiles/ScreenshotToPDF_autogen_timestamp_deps.dir
+C:/CS/Personal/Projects/ScreenShotAddIn/ScreenshotToPDF/build/Desktop_Qt_6_10_2_llvm_mingw_64_bit-Debug/CMakeFiles/ScreenshotToPDF_autogen.dir
